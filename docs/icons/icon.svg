@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="RepTracker">
+  <defs>
+    <linearGradient id="plate" x1="0.14" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1B2A4A"/>
+      <stop offset="1" stop-color="#080B12"/>
+    </linearGradient>
+    <linearGradient id="b1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3B6FE0"/><stop offset="1" stop-color="#2B52A8"/>
+    </linearGradient>
+    <linearGradient id="b2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5A96FF"/><stop offset="1" stop-color="#3B6FE0"/>
+    </linearGradient>
+    <linearGradient id="b3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6FD8FF"/><stop offset="1" stop-color="#4D8DFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.34" r="0.42">
+      <stop offset="0" stop-color="#6FD8FF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#6FD8FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#plate)"/>
+  <rect width="512" height="512" fill="url(#glow)"/>
+  <rect x="105" y="253" width="77" height="154" rx="38" fill="url(#b1)"/>
+  <rect x="218" y="161" width="77" height="246" rx="38" fill="url(#b2)"/>
+  <rect x="330" y="56"  width="77" height="351" rx="38" fill="url(#b3)"/>
+</svg>
